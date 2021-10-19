@@ -13,7 +13,7 @@ func main() {
 
 	for riga := 1; riga <= d; riga++ {
 		for colonna := 1; colonna <= d; colonna++ {
-			fmt.Print(riga*colonna, " ")
+			fmt.Print(riga*colonna, "\t")
 		}
 		fmt.Println()
 	}
